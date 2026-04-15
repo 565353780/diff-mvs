@@ -32,6 +32,7 @@ def demo():
 
     os.makedirs(depth_folder_path, exist_ok=True)
     os.makedirs(depth_vis_folder_path, exist_ok=True)
+    os.makedirs(masked_depth_vis_folder_path, exist_ok=True)
     os.makedirs(pcd_folder_path, exist_ok=True)
 
     num_views = min(len(camera_list), 10)
